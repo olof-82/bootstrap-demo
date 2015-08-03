@@ -22,6 +22,7 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
+      'bower_components/modernizr/modernizr.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
@@ -30,8 +31,7 @@ module.exports = function(config) {
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
-      "test/mock/**/*.js",
-      "test/spec/**/*.js"
+      "test/**/*.js",
     ],
 
     // list of files / patterns to exclude
