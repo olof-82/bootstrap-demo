@@ -173,6 +173,7 @@
           <h3 class="panel-title">Markup with HTML5</h3>
         </div>
         <img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+
         <p>dwqrfwfwf ssfetge kjlku dedd ngjtj öiöug sdw hrvv aasdgbr rh5r</p>
         <a href="http://www.di.se" target="_blank" class="btn btn-warning btn-block">Dagens Industri</a>
       </div>
@@ -184,6 +185,7 @@
           <h3 class="panel-title">Style with CSS3</h3>
         </div>
         <img src="images/badge_css3.jpg" alt="CSS3" class="img-circle">
+
         <p>dwqrfwfwf ssfetge kjlku dedd ngjtj öiöug sdw hrvv aasdgbr rh5r</p>
         <a href="http://www.aftonbladet.se" target="_blank" class="btn btn-danger btn-block">Aftonbladet</a>
       </div>
@@ -195,6 +197,7 @@
           <h3 class="panel-title">Framework by Bootstrap</h3>
         </div>
         <img src="images/badge_bootstrap.jpg" alt="BOOTSTRAP 3" class="img-circle">
+
         <p>dwqrfwfwf ssfetge kjlku dedd ngjtj öiöug sdw hrvv aasdgbr rh5r</p>
         <a href="http://www.idg.se" target="_blank" class="btn btn-info btn-block">Idg</a>
       </div>
@@ -204,6 +207,7 @@
   <div class="row" id="moreInfo">
     <div class="col-sm-6">
       <h3>Neat tab content</h3>
+
       <div class="tabbable">
         <ul class="nav nav-tabs">
           <li class="active">
@@ -215,8 +219,12 @@
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="tab1">
-            <h4><span class="glyphicon glyphicon-map-marker"></span>Our location <small>more like favourite surf spot</small></h4>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.312345416953!2d13.552859799999986!3d55.9439581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ee318aadb0cf%3A0xb8db3943f27ec320!2zTm9ycmV2w6RybnNnYXRhbiAzOCwgMjQzIDMyIEjDtsO2cg!5e0!3m2!1ssv!2sse!4v1438971180924" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <h4><span class="glyphicon glyphicon-map-marker"></span>Our location
+              <small>more like favourite surf spot</small>
+            </h4>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.312345416953!2d13.552859799999986!3d55.9439581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653ee318aadb0cf%3A0xb8db3943f27ec320!2zTm9ycmV2w6RybnNnYXRhbiAzOCwgMjQzIDMyIEjDtsO2cg!5e0!3m2!1ssv!2sse!4v1438971180924"
+              width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
             <p>Zeta bi-color cedrium est.
               Where is the seismic emitter?
               Place the okra in a bottle, and toss tenderly with salted milk.
@@ -225,16 +233,20 @@
             </p>
           </div>
           <div class="tab-pane" id="tab2">
-            <h4>A left floated picture <small>using placeholder.it</small></h4>
+            <h4>A left floated picture
+              <small>using placeholder.it</small>
+            </h4>
             <img src="http://placehold.it/140" class="thumbnail pull-left">
+
             <p>Zeta bi-color cedrium est.
               Where is the seismic emitter?
               Place the okra in a bottle, and toss tenderly with salted milk.
               Moons, lords, and inner believers will always protect them.
               All those parasites arrest huge, devastated lieutenant commanders.
             </p>
-            <hr />
-            <a href="#myModal" role="button"  class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for Modal Window!</a>
+            <hr/>
+            <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span
+              class="glyphicon glyphicon-hand-up"></span> Click for Modal Window!</a>
 
             <div class="modal fade" id="myModal">
               <div class="modal-dialog">
@@ -245,22 +257,44 @@
                   </div>
                   <div class="modal-body">
                     <h4>text in modal...</h4>
+
                     <p>Pumpkin seeds taste best with cream and lots of marmalade.</p>
+
                     <h4>popovers in modal</h4>
-                    <a href="#" class="btn btn-danger pop">Dont click this button...</a>
+                    <a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You clicked it" data-content="I knew you would...">Dont click this button...</a>
+
                     <h4>tooltips in a modal</h4>
-                    <a href="">This link</a> should have a tooltip, and so should <a href="">this one</a>!
+                    <a href="" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip, and so should <a href="" data-original-title="Woohooo!" rel="tooltip">this one</a>!
                     <hr>
-                    <p><small class="text-muted">PS This form doesnt do anything...Just heads up</small></p>
+                    <p>
+                      <small class="text-muted">PS This form doesnt do anything...Just heads up</small>
+                    </p>
 
-                    <form>
-
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputName">Name</label>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="inputName" placeholder="Name" type="text"/>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputEmail">Name</label>
+                        <div class="col-lg-10">
+                          <input class="form-control" id="inputEmail" placeholder="Email" type="email"/>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                        <div class="col-lg-10">
+                          <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                          <button class="btn btn-success pull-right" type="submit">Send</button>
+                        </div>
+                      </div>
                     </form>
                   </div>
                   <div class="modal-footer">
                     <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
                     <button class="btn btn-primary" type="button">Save Changes</button>
-
                   </div>
                 </div>
               </div>
